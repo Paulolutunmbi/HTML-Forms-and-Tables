@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Signup page</title>
+</head>
+<body>
+    <img src="Facebook-logo.svg" alt="Facebook Logo" width="300">
+    <form action="/dashboard" method="get">
+        <h1>Create a new account</h1>
+        <h2>It's quick and easy</h2>
+        <label for="first-name">First name</label>
+        <br>
+        <input type="text" id="first-name" name="first-name" placeholder="First name" required>
+        <br>
+        <label for="surname">Surname</label>
+        <br>
+        <input type="text" id="surname" name="surname" placeholder="Surname" required>
+        <br>
+        <label for="dob">Date of birth?</label>
+        <br>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="custom" name="gender" value="custom" required>
+        <label for="custom">Custom</label>
+        <br>
+        <label for="login">Phone number or email</label><br>
+        <input type="text" id="login" name="login" placeholder="Phone number or email" required>
+        <br>
+        <label for="password">New password</label>
+        <br>
+        <input type="password" id="password" name="password" placeholder="New password" required>
+        <p>People who use our service may have uploaded your contact information to Facebook. <a href="https://web.facebook.com/help/637205020878504">Learn more</a>.</p>
+        <p>By clicking Sign Up, you agree to our <a href="https://web.facebook.com/legal/terms/update">Terms</a>,<a href="https://free.facebook.com/privacy/policy/#">Privacy Policy</a>  and <a href="https://web.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+        <button type="submit">
+        Sign Up
+        </button>
+    </form>   
+</body>
+</html>
